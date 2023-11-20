@@ -1,0 +1,263 @@
+<html>
+<head>
+<title> GoDestinasi</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">GoDestinasi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Travel Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Travel Promotions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Terms of Service</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section class="header">
+<div class="container">
+    <button type="button" class="login-btn">Login</button>
+</div>  
+<h1>Favourite Places in Malaysia</h1>
+<p>Find the popular foods and places NOW !</p>
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Search City">
+    <div class="input-group-append">
+    <button type="button" class="input-group-text-btn">Search</button>  
+    </div>
+</div>
+</section>
+
+<section class="features">
+    <h1>Featured Destinations</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="feature-img">
+                        <img src="images/1.avif">
+                        <div class="price">
+                    <p>RM 80</p>    
+                </div>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                </div>
+                <div class="feature-details">
+                    <h4>Kuala Lumpur</h4>
+                    <p>This article is related to interesting places in Kuala Lumpur. Among them is the Petronas Twin Towers which are iconic of Kuala Lumpur and among the interesting places in Kuala Lumpur that you should not miss if you go to Kuala Lumpur.
+                        With a height of 452 meters, it is the tallest twin tower in the world. You can ride to the Skybridge that connects these two towers to enjoy the spectacular view of the city of Kuala Lumpur.</p>
+                        <button class="read-more-btn" onclick="toggleContent()">Read More</button>
+                    <div>
+                        <span><i class="fa fa-map-marker"></i>Address:Petronas Twin Tower, Lower Ground (Concourse) Level, Kuala Lumpur City Centre, 50088 Kuala Lumpur</span>
+                        <br>
+                        <span><i class="fa fa-phone" ></i>0323318080</span>
+                        <br>
+                        <span><i class="fa fa-map-pin"></i>Waze / Google Map: Petronas Twin Towers/ Menara Berkembar Petronas </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- /*gambarke 2*/ -->
+
+<div class="col-md-4">
+    <div class="feature-box">
+        <div class="feature-img">
+            <img src="images/2.avif">
+            <div class="price">
+                <p>RM 35</p>
+            </div>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="feature-details">
+            <h4>Pahang</h4>
+            <p>In this article we will share an interesting place located in Cameron Highland Pahang which is Ladang Teh.
+                Cameron is famous for its tea plantations. In fact, the tea plantations in the Cameron Highlands are the largest tea plantations in Malaysia.
+                So it's no wonder that the tea plantation here is a must-stop destination. There is a cafe for you to enjoy a variety of food and drinks. In addition, there is a tea factory that shows how tea is picked and processed.</p>
+                <button class="read-more-btn" onclick="toggleContent()">Read More</button>
+            <div>
+                <span><i class="fa fa-map-marker"></i>Address: Ladang Teh Bharat, Tanah Rata, 3900 Cameron Highland, Pahang</span>
+                <br>
+                <span><i class="fa fa-phone"></i>018-222 6577</span>
+                <br>
+                <span><i class="fa fa-map-pin"></i>Waze / Google Map: Ladang Teh Bharat Cameron Highland</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- /*gambarke 3*/ -->
+
+<div class="col-md-4">
+    <div class="feature-box">
+        <div class="feature-img">
+            <img src="images/penang.webp">
+            <div class="price">
+                <p>RM 12</p>
+            </div>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="feature-details">
+            <h4>Penang</h4>
+            <p>This article we will share with tourists who like to enjoy the beautiful scenery in the early morning, Buit Bendera is a place
+                the most suitable place to see the sunrise. Many more new places have opened in Bukit Bendera such as canopy walk and skywalk.</p>
+                <button class="read-more-btn" onclick="toggleContent()">Read More</button>
+            <div>
+                <span><i class="fa fa-map-marker"></i>Address:Bukit Bendera, Pulau Pinang</span>
+                <br>
+                <span><i class="fa fa-phone"></i>019-254 6147</span>
+                <br>
+                <span><i class="fa fa-map-pin"></i>Waze / Google Map:Bukit Bendera</span>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</div>
+
+</div>
+</section>
+
+<section class="gallery">
+<h1>Travelling Gallery</h1>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+    <div class="gallery-box">
+        <img src="images/sendayan.avif">
+        <h4>Masjid Sri Sendayan</h4>
+    </div>
+</div> 
+<div class="col-md-3">
+    <div class="gallery-box">
+        <img src="images/cameron.avif">
+        <h4>Cameron Highlands</h4>
+    </div>
+</div>
+<div class="col-md-3">
+    <div class="gallery-box">
+        <img src="images/kinabalu.avif">
+        <h4>Mount Kinabalu</h4>
+    </div>
+</div>
+<div class="col-md-3">
+    <div class="gallery-box">
+        <img src="images/langkawi.webp">
+        <h4>Pulau Langkawi</h4>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<section class="banner">
+    <div class="banner-highlights">
+        <div class="container">
+            <div class="col-md-8">
+            <h2> Get 30% on top destination</h2>
+            <p>Go and visit Malaysian's favourite places NOW !</p>
+            </div>
+            <div class="col-md-4">
+            <button type="button" class="booking-btn">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+<section class="users-feedback">
+<h1>Users Review</h1>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+    <div class="user-review">
+    <p> Malaysia is an attractive place for tourist destinations.</p>
+    <h5>Momota Santos</h5>
+    <small>Nigeria</small>
+    </div>
+    <img src="images/user1.jpg">
+    
+</div>
+<div class="col-md-4">
+<div class="user-review">
+    <p>The beauty of historical places in Malaysia is amazing.</p>
+    <h5>Alvin Chong</h5>
+    <small>Paris</small>
+    </div>
+    <img src="images/user2.jpg">
+</div>
+<div class="col-md-4">
+<div class="user-review">
+    <p> The cool weather and landscape in Malaysia make this place a fresh and pleasant destination.</p>
+    <h5>Angeline</h5>
+    <small>Australia</small>
+    </div>
+    <img src="images/user3.jpg">
+</div>
+</div>
+</div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>GoDestinasi</h4>
+                <p>Come and visit Malaysia as soon as possible, Grab your chances NOW!</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Features</h4>
+                <p>Deals & Offers</p>
+                <p>Customer Reviews</p>
+                <p>Policy</p>
+            </div>
+            <div class="col-md-3"> <!-- You missed the opening div tag here -->
+                <h4>Contact</h4>
+                <p><i class="fa fa-phone-square"></i>012456987</p>
+                <p><i class="fa fa-envelope"></i>hellogodestinasi@gmail.com</p>
+                <p><i class="fa fa-home"></i>89, Jalan Abdullah, Muar</p>
+            </div> <!-- Close the div here -->
+            <div class="col-md-3">
+                <h4>Follow Us on</h4>
+                <p><i class="fa fa-facebook-official"></i>Facebook</p>
+                <p><i class="fa fa-youtube-play"></i>Youtube</p>
+                <p><i class="fa fa-twitter"></i>Twitter</p>
+            </div>
+        </div> <!-- Close the row div here -->
+        <hr>
+        <p class="copyright">Made with <i class="fa fa-heart"></i>by Cookies</p>
+    </div>
